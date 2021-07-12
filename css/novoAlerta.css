@@ -1,0 +1,160 @@
+:root {
+    --space-xxs: 4px;
+    --space-xs: 8px;
+    --space-sm: 16px;
+    --space: 24px;
+    --space-md: 32px;
+    --space-lg: 48px;
+    --space-xlg: 64px;
+    --screen-xs: 360px;
+    --screen-sm: 768px;
+    --screen-md: 992px;
+    --screen-lg: 1280px;
+    --screen-xlg: 1440px;
+    --border: 1px;
+    --border-color: #e5e5e5;
+    --highlight-color: #ffd3a8;
+    --text-color: #676a6c;
+    --bg-zeeng: #F3F3F4;
+    --border-input-select: #55898d;
+    --zeeng-green: #18a689;
+  }
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f3f3f3 !important;
+}
+
+.form{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    font-size: 14px;
+}
+
+  .form{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .header{
+    padding-left: 20px;
+    padding-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cartao .cardText{
+    color: #676a6c;
+  }
+
+  .cartao .cardContent{
+    color: #676a6c;
+  }
+
+  .cartao{
+      color:var(--border-color);
+      border-radius: 3px;
+      width: 500px;
+      justify-content: space-between;
+      margin-right: 40px;
+      height: 130px;
+      background-color: #fff;
+      border-left: 4px solid var(--border-color);
+      user-select: none;
+      cursor: pointer;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+}
+
+    .cardImage{
+        width: 40%;
+        height: 130px;
+        align-items: center;
+        display: flex;
+        float: left;
+        justify-content: center;
+    }
+
+    .cardImage i{
+        font-size: 60px;
+    }
+
+    .cardContent{
+        padding: 10px;
+        justify-content: center;
+        display: grid;
+        float: right;
+        width: 60%;
+        height: 130px;
+
+    }
+    .cardText{
+        font-size: 12px;
+        height: 50%;
+        text-overflow:none;
+    }
+
+    .cardTipo{
+        font-weight: bold;
+    }
+
+    .selecionadoBorda{
+        border-color: var(--zeeng-green);
+    }
+    
+    .selecionado{
+        color:var(--zeeng-green);
+    }
+
+    .cartao.plus{
+        color:var(--zeeng-green);
+        border-radius: 3px;
+        transform: scale(1.05);
+        transform-origin: 50% 50%;
+        transition: all 0.2s ease-out;
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        border-left: 4px solid var(--zeeng-green);
+        background-color: white;
+        top: -4px;
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+}
+
+.cartao.plus .cardText{
+    color: #676a6c;
+}
+
+.cartao.plus .cardContent{
+    color: var(--zeeng-green);
+}
+
+.cartao.selecionadoBorda .cardText{
+    color: #676a6c;
+}
+.cartao.selecionadoBorda .cardContent{
+    color: var(--zeeng-green);
+  }
+
+.cartao.plus.selecionadoBorda{
+    border-color: var(--zeeng-green);
+}
+
+.resume{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: bold;
+    font-weight: bold;
+}
+
+
+
+
